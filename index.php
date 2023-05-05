@@ -52,7 +52,7 @@ if (isset($_POST['name'])) {
 
             <div class="container">
                 <label for="name"><b></b></label>
-                <input type="text" placeholder="Enter Email" name="name" required>
+                <input type="email" placeholder="Enter Email" name="name" required>
 
                 <label for="password"><b></b></label>
                 <input type="password" placeholder="Enter Password" name="password" required>

@@ -52,10 +52,10 @@ if (isset($_POST['name'])) {
 
             <div class="container">
                 <label for="name"><b></b></label>
-                <input type="email" placeholder="Enter Email" name="name" required>
+                <input type="email" placeholder="Enter Email" name="name" title="Pls Fill out the field" required>
 
                 <label for="password"><b></b></label>
-                <input type="password" placeholder="Enter Password" name="password" required>
+                <input type="password" placeholder="Enter Password" name="password" title="Pls Fill out the field" required>
 
                 <button name="submit" class="action_btn submit" type="submit" >Sign In</button>
                 <button name="reset" class="action_btn cancel" type="reset">Clear</button>
